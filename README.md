@@ -22,6 +22,16 @@ uv run pytest tests/
 pytest -q --disable-warnings --tb=no --maxfail=0 | tail -n 1
 ```
 
+## Create FST
+
+```bash
+uv run python -c "
+from src.phonemize import HebrewPhonemizer
+fst_path = 'hebrew_phonemizer.fst'
+HebrewPhonemizer(fst_path)
+"
+```
+
 ## Gotchas
 
 on macOS:

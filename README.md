@@ -1,6 +1,8 @@
 # Hebrew FST (Finite State Transducer)
 
-Fast rule-based FST that converts Hebrew word with Nikud to phonemes.
+Fast rule-based FST that converts Hebrew word with enhanced diacritics to phonemes.
+
+_Enhanced diacritics are those from the Phonikud project_ https://phonikud.github.io/
 
 ## WIP
 

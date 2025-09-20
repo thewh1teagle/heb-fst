@@ -13,3 +13,20 @@ Goal:
 ```bash
 uv run pytest tests/
 ```
+
+## Test coverage
+
+```bash
+pytest -q --disable-warnings --tb=no --maxfail=0 | tail -n 1
+```
+
+## Gotchas
+
+on macOS:
+
+```console
+brew install openfst
+export CPLUS_INCLUDE_PATH="/opt/homebrew/include:$CPLUS_INCLUDE_PATH"
+export LIBRARY_PATH="/opt/homebrew/lib:$LIBRARY_PATH"
+uv pip install pynini
+```

@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.3.2",
+    "pynini>=2.1.7",
     "pytest>=8.4.2",
 ]
 

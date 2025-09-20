@@ -17,12 +17,14 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pandas" },
+    { name = "pynini" },
     { name = "pytest" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "pandas", specifier = ">=2.3.2" },
+    { name = "pynini", specifier = ">=2.1.7" },
     { name = "pytest", specifier = ">=8.4.2" },
 ]
 
@@ -157,6 +159,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
+]
+
+[[package]]
+name = "pynini"
+version = "2.1.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/b6/09a0efe843df37d9c80a9a1c190c7bb28d8920cee401e2a61c46f1328ec1/pynini-2.1.7.tar.gz", hash = "sha256:fc06cc02adcbd4b14eb94ae9f2a0949d110612d2d4ee3a7ac5dc97b45fff8e33", size = 789771, upload-time = "2025-09-04T22:15:39.628Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/16/8624f73412f4571517dc97e027c6b73db849c7c649aad70aa2dd168834a1/pynini-2.1.7-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:574985fb1cae220ac96caa30476d764fe6d8991cc4f378d83e276591118eb10a", size = 165508989, upload-time = "2025-09-04T22:05:54.495Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/9b/dcbf23733cd57a86dc4aa425aba2a4efff301acf152e50065c232449ade6/pynini-2.1.7-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:764ae36dd9f3480e88c4d4046d108a74c4923510d0aa93062debfe1f742b356f", size = 165495070, upload-time = "2025-09-04T22:06:00.483Z" },
+    { url = "https://files.pythonhosted.org/packages/88/c2/d47eae721b2ac558d72c61250ee64918cff453e40d5c02db53ec21983ef9/pynini-2.1.7-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a7e59fc8ac5eed9234f9d394e882bd7048808590e15abcce5ce03662b8e5ea79", size = 165409045, upload-time = "2025-09-04T22:06:08.351Z" },
+    { url = "https://files.pythonhosted.org/packages/27/23/74fb65f0cdd345b8b186f80a3bdd318e93906b572cd82721a16bee9b1eaa/pynini-2.1.7-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:aaf2171cf5d744961d1080a680f1725807b4d179588a6ad3135596c2e0e06bc0", size = 165463702, upload-time = "2025-09-04T22:06:17.204Z" },
+    { url = "https://files.pythonhosted.org/packages/61/41/fd9c867fbe1a9141ea57a59e6a8b087ba88f19e97bd46b39dcf77ed00ecb/pynini-2.1.7-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:2bb5de3d52056a228dd48a6d027fc279f0c94a11f28bc43b79c43a1624ec032d", size = 165404717, upload-time = "2025-09-04T22:06:23.494Z" },
 ]
 
 [[package]]

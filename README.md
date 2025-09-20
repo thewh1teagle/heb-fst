@@ -1,6 +1,6 @@
 # Hebrew FST (Finite State Transducer)
 
-Fast rule-based FST that converts Hebre word with Nikud to phonemes.
+Fast rule-based FST that converts Hebrew word with Nikud to phonemes.
 
 ## WIP
 
